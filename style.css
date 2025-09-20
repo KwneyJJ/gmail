@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202124;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 40px;
+    border-radius: 28px; /* más redondeado */
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.5);
+    width: 750px; /* más ancho */
+    color: #e8eaed;
+}
+
+.icon{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    width: 55%;
+}
+
+img{
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #5f6368;
+    border-radius: 4px;
+    background: transparent;
+    color: #e8eaed;
+    font-size: 16px;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #8ab4f8;
+    outline: none;
+}
+
+.link {
+    color: #8ab4f8;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.info {
+    font-size: 12px;
+    margin: 20px 0;
+    color: #bdc1c6;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.crear {
+    background-color: #8ab4f8;
+    color: #202124;
+}
+
+.crear:hover {
+    background-color: #669df6;
+}
+
+.siguiente {
+    background: none;
+    color: #8ab4f8;
+    font-size: 14px;
+}
+
+.siguiente:hover {
+    text-decoration: underline;
+}
+
+.hero .abajo {
+    bottom: 10px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+    font-size: 12px;
+    color: #bdc1c6;
+}
+
+.hero .abajo a {
+    color: #bdc1c6;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.hero .abajo a:hover {
+    text-decoration: underline;
+}
